@@ -1,0 +1,30 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+.mainContainer .gridContainer {
+  display: grid;
+  grid-template-columns: 1000px 800px;
+  grid-template-rows: 100px 900px;
+  background-image: url("assests/hero.jpg");
+}
+.mainContainer .gridContainer .item1 {
+  justify-self: center;
+}
+.mainContainer .gridContainer .item2 {
+  display: flex;
+  justify-content: space-around;
+}
+.mainContainer .gridContainer .item3 {
+  justify-self: center;
+}
+.mainContainer .gridContainer .item4 {
+  justify-self: stretch;
+  justify-self: center;
+}
+.mainContainer .gridContainer .item4 img {
+  max-width: 500px;
+  max-height: 700px;
+}
+
+/*# sourceMappingURL=style.css.map */
